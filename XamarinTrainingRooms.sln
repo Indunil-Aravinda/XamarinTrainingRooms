@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTrainingRooms", "..\MyTrainingRooms\MyTrainingRooms.csproj", "{CA1EB8BC-A2DB-438E-A829-2F5639560CA0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstituteApp", "..\InstituteApp\InstituteApp.csproj", "{6D30884C-64F7-4711-96F2-68912E5829BD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CA1EB8BC-A2DB-438E-A829-2F5639560CA0} = {CA1EB8BC-A2DB-438E-A829-2F5639560CA0}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
